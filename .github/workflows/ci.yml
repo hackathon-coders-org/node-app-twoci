@@ -1,0 +1,10 @@
+name: Docs lint
+on:
+  workflow_dispatch:
+jobs:
+  docs:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "unrelated docs check"
